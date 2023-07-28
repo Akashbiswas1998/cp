@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #p{
+                width:500px;
+                height:500px;
+                background:red;
+            }
+            #c1{
+                width:250px;
+                height:250px;
+                background:rgb(7, 228, 73);
+            }
+            #c2{
+                width:250px;
+                height:250px;
+                background:rgb(228, 7, 199);
+            }
+            #p:hover #c1{
+                background:#000;
+                border-radius:250px;   
+            }
+            #p:hover #c2{
+                background:#e0dd0f;
+                border-radius:250px;  
+            }
+            #cc1{
+                width:125px;
+                height:125px;
+                background:rgb(7, 221, 228); 
+            }
+            #p:hover #cc1{
+                background:#f14a08;
+                border-radius:250px;   
+            }
+        </style>
+    </head>
+    <body>
+        <div id="p">
+            <div id="c1"></div>
+            <div id="c2">
+                <div id="cc1"></div>
+            </div>
+        </div>
+    </body>
+</html>
